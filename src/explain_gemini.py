@@ -22,7 +22,15 @@ SYSTEM_INSTRUCTION = (
     "explanation for a fraud analyst who is not a data scientist. Rules: only reference the "
     "features and directions given to you — never invent a reason not present in the data. State "
     "the risk level and probability plainly, then explain the top 2-3 drivers in business terms. "
-    "Do not use technical jargon like 'SHAP value' or 'feature vector' in the output."
+    "Do not use technical jargon like 'SHAP value' or 'feature vector' in the output. Do not use "
+    "markdown formatting (no asterisks, no bold) — plain sentences only. IMPORTANT: engineered "
+    "features named C1-C14, D1-D15, and V1-V339 are anonymized by the data provider and their "
+    "real-world meaning was never disclosed — never claim to know what one of these specifically "
+    "represents (e.g. never say a C-feature counts 'purchases from the same IP' or a V-feature "
+    "means something specific). For these, describe only the direction and relative size of the "
+    "effect (e.g. 'an unusual value in one of the model's internal risk signals'), and reserve "
+    "concrete real-world claims for named fields you can be certain about, like card network, "
+    "email domain, device, or transaction amount."
 )
 
 

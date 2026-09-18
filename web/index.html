@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FraudLens — AI Fraud Detection Demo</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="brand-mark">FL</span>
+      <div>
+        <h1>FraudLens</h1>
+        <p class="subtitle">XGBoost fraud detection · SHAP explainability · Gemini plain-language layer</p>
+      </div>
+    </div>
+    <div class="metrics">
+      <div class="metric"><span class="metric-value">0.894</span><span class="metric-label">Test ROC-AUC</span></div>
+      <div class="metric"><span class="metric-value">590K</span><span class="metric-label">Transactions</span></div>
+      <div class="metric"><span class="metric-value">434</span><span class="metric-label">Features</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="picker">
+      <h2>Pick a real held-out transaction</h2>
+      <p class="hint">Every prediction and SHAP driver below is real output from the trained model — nothing here is fabricated. Only the written explanation is generated live by Gemini when you select a transaction.</p>
+      <div id="txn-list" class="txn-list"></div>
+    </section>
+
+    <section class="detail" id="detail" hidden>
+      <div class="detail-header">
+        <div>
+          <span class="txn-id">Transaction <span id="d-id"></span></span>
+          <span id="d-actual" class="badge"></span>
+        </div>
+        <div class="prob-display">
+          <span id="d-prob" class="prob-value"></span>
+          <span class="prob-label">model fraud probability</span>
+        </div>
+      </div>
+
+      <div class="panels">
+        <div class="panel">
+          <h3>SHAP drivers (exact, from the trained model)</h3>
+          <div id="d-drivers" class="drivers"></div>
+        </div>
+
+        <div class="panel">
+          <h3>Plain-language explanation <span class="live-tag">live Gemini API call</span></h3>
+          <div id="d-explanation" class="explanation">
+            <span class="loading">Calling Gemini…</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built on the IEEE-CIS fraud dataset · <a href="https://github.com/mahimarajesh7-netizen/fraudlens" target="_blank" rel="noopener">source on GitHub</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

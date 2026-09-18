@@ -1,0 +1,6 @@
+{
+  "name": "fraudlens-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static demo of the FraudLens model + SHAP + Gemini explanation layer"
+}

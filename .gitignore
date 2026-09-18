@@ -218,11 +218,10 @@ __marimo__/
 .streamlit/secrets.toml
 
 # FraudLens project-specific
-data/
+/data
 models/*.json
 models/*.pkl
 models/*.joblib
 outputs/*.png
 !outputs/.gitkeep
 *.csv
-/data

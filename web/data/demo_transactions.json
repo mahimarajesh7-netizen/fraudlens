@@ -1,0 +1,382 @@
+[
+  {
+    "transactionId": 3572166,
+    "actualLabel": "fraud",
+    "fraudProbability": 0.9962,
+    "amount": 164.459,
+    "topDrivers": [
+      {
+        "feature": "C1",
+        "value": 13.0,
+        "shap": 2.033104419708252
+      },
+      {
+        "feature": "V258",
+        "value": 3.0,
+        "shap": 1.2123185396194458
+      },
+      {
+        "feature": "card1",
+        "value": "5812",
+        "shap": -1.2094420194625854
+      },
+      {
+        "feature": "C11",
+        "value": 7.0,
+        "shap": 0.5993868708610535
+      },
+      {
+        "feature": "id_01",
+        "value": -70.0,
+        "shap": 0.5507380962371826
+      },
+      {
+        "feature": "DeviceInfo",
+        "value": "LG-M700 Build/NMF26X",
+        "shap": 0.5007188320159912
+      }
+    ]
+  },
+  {
+    "transactionId": 3559518,
+    "actualLabel": "fraud",
+    "fraudProbability": 0.9047,
+    "amount": 161.0,
+    "topDrivers": [
+      {
+        "feature": "C13",
+        "value": 46.0,
+        "shap": -1.2357107400894165
+      },
+      {
+        "feature": "card1",
+        "value": "12695",
+        "shap": -0.45853686332702637
+      },
+      {
+        "feature": "V320",
+        "value": 687.0,
+        "shap": 0.4584195911884308
+      },
+      {
+        "feature": "V296",
+        "value": 10.0,
+        "shap": 0.3860180079936981
+      },
+      {
+        "feature": "V307",
+        "value": 2502.0,
+        "shap": 0.3281368017196655
+      },
+      {
+        "feature": "dist1",
+        "value": 5.0,
+        "shap": 0.32635217905044556
+      }
+    ]
+  },
+  {
+    "transactionId": 3539123,
+    "actualLabel": "fraud",
+    "fraudProbability": 0.1885,
+    "amount": 5.735,
+    "topDrivers": [
+      {
+        "feature": "card1",
+        "value": "3154",
+        "shap": -1.9467192888259888
+      },
+      {
+        "feature": "V258",
+        "value": 3.0,
+        "shap": 0.9005751013755798
+      },
+      {
+        "feature": "D13",
+        "value": 6.0,
+        "shap": -0.7673372030258179
+      },
+      {
+        "feature": "id_01",
+        "value": -100.0,
+        "shap": 0.6127973794937134
+      },
+      {
+        "feature": "TransactionAmt",
+        "value": 5.735,
+        "shap": -0.5213419795036316
+      },
+      {
+        "feature": "V45",
+        "value": 3.0,
+        "shap": 0.4245974123477936
+      }
+    ]
+  },
+  {
+    "transactionId": 3567624,
+    "actualLabel": "fraud",
+    "fraudProbability": 0.0184,
+    "amount": 994.0,
+    "topDrivers": [
+      {
+        "feature": "card1",
+        "value": "9803",
+        "shap": -2.071122169494629
+      },
+      {
+        "feature": "addr1",
+        "value": 264.0,
+        "shap": -1.0888913869857788
+      },
+      {
+        "feature": "P_emaildomain",
+        "value": "anonymous.com",
+        "shap": -1.0745264291763306
+      },
+      {
+        "feature": "C14",
+        "value": 0.0,
+        "shap": 0.6590387225151062
+      },
+      {
+        "feature": "C13",
+        "value": 0.0,
+        "shap": 0.47581249475479126
+      },
+      {
+        "feature": "M5",
+        "value": "T",
+        "shap": -0.34192273020744324
+      }
+    ]
+  },
+  {
+    "transactionId": 3501321,
+    "actualLabel": "legit",
+    "fraudProbability": 0.0034,
+    "amount": 445.0,
+    "topDrivers": [
+      {
+        "feature": "card2",
+        "value": 201.0,
+        "shap": -1.294348120689392
+      },
+      {
+        "feature": "card1",
+        "value": "5711",
+        "shap": -1.1909135580062866
+      },
+      {
+        "feature": "C13",
+        "value": 15.0,
+        "shap": -0.6429157257080078
+      },
+      {
+        "feature": "card1_freq",
+        "value": "161",
+        "shap": -0.6232936978340149
+      },
+      {
+        "feature": "TransactionAmt",
+        "value": 445.0,
+        "shap": 0.6176345348358154
+      },
+      {
+        "feature": "dist1",
+        "value": 12.0,
+        "shap": -0.4409354627132416
+      }
+    ]
+  },
+  {
+    "transactionId": 3512889,
+    "actualLabel": "legit",
+    "fraudProbability": 0.0018,
+    "amount": 59.0,
+    "topDrivers": [
+      {
+        "feature": "card1",
+        "value": "12839",
+        "shap": -1.4944164752960205
+      },
+      {
+        "feature": "addr1",
+        "value": 264.0,
+        "shap": -1.2626063823699951
+      },
+      {
+        "feature": "card2",
+        "value": "missing",
+        "shap": -0.766847550868988
+      },
+      {
+        "feature": "D3",
+        "value": 21.0,
+        "shap": -0.4707852602005005
+      },
+      {
+        "feature": "dist1",
+        "value": 103.0,
+        "shap": -0.43419432640075684
+      },
+      {
+        "feature": "TransactionAmt",
+        "value": 59.0,
+        "shap": -0.42396098375320435
+      }
+    ]
+  },
+  {
+    "transactionId": 3498052,
+    "actualLabel": "fraud",
+    "fraudProbability": 0.0006,
+    "amount": 440.99,
+    "topDrivers": [
+      {
+        "feature": "card1",
+        "value": "9002",
+        "shap": -2.9669888019561768
+      },
+      {
+        "feature": "addr1",
+        "value": 143.0,
+        "shap": -2.0971052646636963
+      },
+      {
+        "feature": "TransactionAmt_decimal",
+        "value": "990",
+        "shap": -0.5407646894454956
+      },
+      {
+        "feature": "P_emaildomain",
+        "value": "yahoo.com",
+        "shap": -0.5088558197021484
+      },
+      {
+        "feature": "M5",
+        "value": "F",
+        "shap": -0.46130844950675964
+      },
+      {
+        "feature": "M4",
+        "value": "M2",
+        "shap": 0.42647719383239746
+      }
+    ]
+  },
+  {
+    "transactionId": 3501478,
+    "actualLabel": "legit",
+    "fraudProbability": 0.0005,
+    "amount": 2529.78,
+    "topDrivers": [
+      {
+        "feature": "card1",
+        "value": "7664",
+        "shap": -1.443071961402893
+      },
+      {
+        "feature": "addr1",
+        "value": 264.0,
+        "shap": -1.198274850845337
+      },
+      {
+        "feature": "TransactionAmt_decimal",
+        "value": "780",
+        "shap": -0.549218475818634
+      },
+      {
+        "feature": "TransactionAmt",
+        "value": 2529.78,
+        "shap": -0.5222117900848389
+      },
+      {
+        "feature": "P_emaildomain",
+        "value": "yahoo.com",
+        "shap": -0.4488382935523987
+      },
+      {
+        "feature": "C5",
+        "value": 1.0,
+        "shap": -0.31221136450767517
+      }
+    ]
+  },
+  {
+    "transactionId": 3553087,
+    "actualLabel": "legit",
+    "fraudProbability": 0.0001,
+    "amount": 261.95,
+    "topDrivers": [
+      {
+        "feature": "card1_freq",
+        "value": "38",
+        "shap": -1.6512079238891602
+      },
+      {
+        "feature": "card1",
+        "value": "17540",
+        "shap": -1.4996235370635986
+      },
+      {
+        "feature": "C13",
+        "value": 19.0,
+        "shap": -0.8753291368484497
+      },
+      {
+        "feature": "D1",
+        "value": 637.0,
+        "shap": -0.6385065317153931
+      },
+      {
+        "feature": "addr1",
+        "value": 469.0,
+        "shap": -0.621850848197937
+      },
+      {
+        "feature": "card2",
+        "value": 555.0,
+        "shap": -0.513201892375946
+      }
+    ]
+  },
+  {
+    "transactionId": 3490049,
+    "actualLabel": "legit",
+    "fraudProbability": 0.0,
+    "amount": 139.95,
+    "topDrivers": [
+      {
+        "feature": "card1",
+        "value": "7676",
+        "shap": -4.030848503112793
+      },
+      {
+        "feature": "C13",
+        "value": 31.0,
+        "shap": -1.5746879577636719
+      },
+      {
+        "feature": "addr1",
+        "value": 299.0,
+        "shap": -1.184019684791565
+      },
+      {
+        "feature": "D15",
+        "value": 352.0,
+        "shap": -0.7554351687431335
+      },
+      {
+        "feature": "C14",
+        "value": 2.0,
+        "shap": -0.4975120723247528
+      },
+      {
+        "feature": "card2",
+        "value": 512.0,
+        "shap": -0.3471922278404236
+      }
+    ]
+  }
+]
